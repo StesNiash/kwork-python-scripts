@@ -48,3 +48,17 @@
 **Можно без Python на компьютере?** Для запуска нужен Python; упаковка в exe обсуждается отдельно.
 
 **Подойдёт для Excel?** Для CSV — да. Для `.xlsx` нужна отдельная задача с библиотекой для Excel.
+
+## Обложка (не копировать в карточку)
+
+> Это промпт для генератора изображений, а не текст объявления. В Kwork его публиковать не нужно.
+
+**Промпт для ChatGPT / Gemini:**
+
+> 4:3 cover illustration for a Python automation service. A tidy folder with duplicate documents on the left, flowing into a clean CSV report and a small terminal window on the right; subtle arrows show deduplication and renaming. Dark charcoal background, emerald green and warm amber accents, soft monitor glow, minimal geometric style, professional editorial tech look, high contrast, generous negative space, centered composition that survives a square crop, no text, no letters, no logos, no watermarks, no real person, crisp vector details.
+
+**Коротко по-русски:** папка с файлами → дедупликация/переименование → CSV-отчёт и терминал; тёмный фон, зелёный и янтарь; без текста и логотипов.
+
+**Параметры:** 1200×900, 4:3; терминал и таблица читаемы как силуэты, без мелких надписей.
+
+**Негатив:** text, code text, typography, letters, logo, watermark, real person, chaotic desktop, too many icons, low contrast.
