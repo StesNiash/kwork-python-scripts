@@ -1,0 +1,46 @@
+{
+  "dedupe": {
+    "groups": 1,
+    "duplicates": 1,
+    "items": [
+      {
+        "keep": "demo\\work\\a.txt",
+        "duplicates": [
+          "demo\\work\\b.txt"
+        ],
+        "sha256": "f953bbd204bb867e48a6ff774cffa3dcffd02c6580e8f1d00c37dbbaa743d6c8"
+      }
+    ],
+    "moved": 1
+  },
+  "rename": {
+    "files": 3,
+    "items": [
+      {
+        "source": "demo\\work\\a.txt",
+        "target": "demo\\work\\doc_001.txt"
+      },
+      {
+        "source": "demo\\work\\photo-1.txt",
+        "target": "demo\\work\\doc_002.txt"
+      },
+      {
+        "source": "demo\\work\\photo-2.txt",
+        "target": "demo\\work\\doc_003.txt"
+      }
+    ],
+    "applied": true
+  },
+  "csv": {
+    "file": "examples\\invoices.csv",
+    "columns": [
+      "name",
+      "city",
+      "amount"
+    ],
+    "rows": 4,
+    "blank_rows": 1,
+    "duplicate_rows": 1,
+    "empty_cells": 0
+  }
+}
